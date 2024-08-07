@@ -1,0 +1,36 @@
+/* style.css */
+.cart {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+.cart-item:last-child {
+    border-bottom: none;
+}
+.item-controls {
+    display: flex;
+    align-items: center;
+}
+.item-controls button {
+    margin: 0 5px;
+    padding: 5px 10px;
+}
+.heart {
+    cursor: pointer;
+    color: grey !important;
+}
+.heart.liked {
+    color: red;
+}
+.total {
+    text-align: right;
+    margin-top: 20px;
+}
